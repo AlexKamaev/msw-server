@@ -22,6 +22,7 @@ jobs:
       - uses: actions/checkout@v1
       - run: yarn --frozen-lockfile
       - run: yarn test
+      - run: yarn start
       # - name: Install TestCafe
       #   uses: DevExpress/testcafe-action@latest
       #   with:
